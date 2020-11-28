@@ -22,7 +22,7 @@ Home()
 answer = input("Choose number: ")
 
 if answer == "1":
-    time.sleep(2)
+    time.sleep(3)
     while count <= 1:
         for num in range(600):
             pyautogui.click(953, 443)
